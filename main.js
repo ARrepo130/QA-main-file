@@ -1,8 +1,7 @@
 let qrcode = document.querySelector("img");
 // qrtext = document.querySelector("textarea");
 let qrbtn = document.getElementById("genBtn");
-//let atbtn = document.getElementById("genAtt");
-//let pdfbtn = document.getElementById("pdf")
+
 
 qrbtn.addEventListener("click", both);
 
@@ -43,12 +42,7 @@ function generateQR() {
             );
         });
 
-        // function addItemsToList(rollNo){
-        // var ul=document.getElementById('list' );
-        // var _rollNo=document.createElement('li');
-        // _rollNo.innerHTML='Roll No:'+ rollNo;
-        // ul.appendChild(_rollNo);
-        // };
+     
         var srno= 0;
         function addItemsToList(rollNo){
             var tbody=document.getElementById('tbody1');
